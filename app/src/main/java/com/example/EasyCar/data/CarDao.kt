@@ -1,7 +1,7 @@
-package com.example.myapplication.data
+package com.example.EasyCar.data
 
 import androidx.room.*
-import com.example.myapplication.model.Car
+import com.example.EasyCar.model.Car
 import kotlinx.coroutines.flow.Flow
 
 @Dao

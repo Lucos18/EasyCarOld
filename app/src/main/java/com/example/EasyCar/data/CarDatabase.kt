@@ -1,12 +1,12 @@
-package com.example.myapplication.data
+package com.example.EasyCar.data
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.example.myapplication.model.Car
+import com.example.EasyCar.model.Car
 
-@Database(entities = [Car::class], version = 1, exportSchema = false)
+@Database(entities = [Car::class], version = 2, exportSchema = false)
 abstract class CarDatabase: RoomDatabase() {
     abstract fun CarDao(): CarDao
     companion object {

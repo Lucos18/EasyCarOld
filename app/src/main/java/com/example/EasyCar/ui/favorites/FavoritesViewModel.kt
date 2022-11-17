@@ -1,13 +1,13 @@
-package com.example.myapplication.ui.search
+package com.example.EasyCar.ui.favorites
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class SearchViewModel : ViewModel() {
+class FavoritesViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is search Fragment"
+        value = "This is favorites Fragment"
     }
     val text: LiveData<String> = _text
 }

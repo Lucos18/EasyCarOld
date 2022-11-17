@@ -1,13 +1,12 @@
-package com.example.myapplication.ui.favorites
+package com.example.EasyCar.ui.sell
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class FavoritesViewModel : ViewModel() {
-
+class SellViewModel : ViewModel() {
     private val _text = MutableLiveData<String>().apply {
-        value = "This is favorites Fragment"
+        value = "This is sell Fragment"
     }
     val text: LiveData<String> = _text
 }

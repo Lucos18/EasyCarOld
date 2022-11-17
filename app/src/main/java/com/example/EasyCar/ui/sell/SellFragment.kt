@@ -1,4 +1,4 @@
-package com.example.myapplication.ui.sell
+package com.example.EasyCar.ui.sell
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -7,10 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import com.example.myapplication.R
-import com.example.myapplication.databinding.FragmentSearchBinding
-import com.example.myapplication.databinding.FragmentSellBinding
-import com.example.myapplication.ui.search.SearchViewModel
+import com.example.EasyCar.databinding.FragmentSellBinding
 
 class SellFragment : Fragment() {
 

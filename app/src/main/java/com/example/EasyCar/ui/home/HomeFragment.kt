@@ -1,4 +1,4 @@
-package com.example.myapplication.ui.home
+package com.example.EasyCar.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,11 +6,13 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.ViewModelProvider
-import androidx.navigation.fragment.findNavController
-import com.example.myapplication.databinding.FragmentHomeBinding
+import com.example.EasyCar.BaseApplication
+import com.example.EasyCar.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
+
     private val homeViewModel =
         ViewModelProvider(this).get(HomeViewModel::class.java)
     private var _binding: FragmentHomeBinding? = null
@@ -50,9 +52,11 @@ class HomeFragment : Fragment() {
             }
         }
         binding.apply {
-            carRecyclerViewList.adapter = adapter
+            carRecyclerView.adapter = adapter
         }
-        */
+
+
+         */
     }
 
     override fun onDestroyView() {

@@ -1,11 +1,12 @@
-package com.example.myapplication.ui.home
+package com.example.EasyCar.ui.home
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.myapplication.model.Car
+import com.example.EasyCar.databinding.CarItemCardBinding
+import com.example.EasyCar.model.Car
 
 class HomeListAdapter(
     private val clickListener: (Car) -> Unit
